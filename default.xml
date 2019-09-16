@@ -58,8 +58,7 @@
   <project path="device/google/marlin" name="PACROM/device_google_marlin" revision="master" remote="los" />
   <project path="kernel/google/marlin" name="PACROM/kernel_google_marlin" revision="master" remote="los" />
   <project path="vendor/pac" name="PACROM/aosp_vendor_pac" revision="master" remote="los" />
-  <project path="vendor/google" name="PACROM/proprietary_vendor_google" revision="lineage-16.0" remote="los" />
-  <project path="vendor/gapps" name="aosp_vendor_gapps" remote="glab" revision="master" remote="los" />
+  <project path="vendor/google" name="PACROM/proprietary_vendor_google" revision="lineage-16.0" remote="los" />  
   <project path="packages/apps/Backgrounds" name="PACROM/android_packages_apps_Backgrounds" revision="lineage-16.0" remote="los" />
   <project path="packages/apps/Updater" name="PACROM/android_packages_apps_Updater" revision="lineage-16.0" remote="los" />
   <project path="vendor/extra" name="PACROM/vendor_extra" revision="master" remote="los" />
