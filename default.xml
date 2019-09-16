@@ -52,7 +52,7 @@
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" remote="los" />
   
   <!-- PACROM additions -->
-  <project path="vendor/lineage" name="PACROM/aosp_vendor_lineage" revision="master" />
+  <project path="vendor/lineage" name="PACROM/aosp_vendor_lineage" revision="master" remote="los" />
   <project path="android" name="PACROM/android" revision="master" remote="los" />
   <project path="packages/apps/Settings" name="PACROM/packages_apps_Settings" revision="master" remote="los" />
   <project path="device/google/marlin" name="PACROM/device_google_marlin" revision="master" remote="los" />
