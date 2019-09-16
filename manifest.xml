@@ -8,7 +8,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/LineageOS"
-           review="review.cyanogenmod.org"
+           review="review.LineageOS.org"
            revision="refs/heads/lineage-16.0" />
 
   <remote  name="github"
