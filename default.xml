@@ -37,8 +37,7 @@
   <project path="packages/apps/Eleven" name="LineageOS/android/packages/apps/Eleven" remote="los" />
   <project path="packages/apps/Exchange" name="LineageOS/android/packages/apps/Exchange" remote="los" />
   <project path="packages/apps/FMRadio" name="LineageOS/android/packages/apps/FMRadio" remote="los" />  
-  <project path="packages/apps/LineageCustomizer" name="LineageOS/android/packages/apps/LineageCustomizer" remote="los" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android/packages/apps/LineageParts" remote="los" />
+   <project path="packages/apps/LineageParts" name="LineageOS/android/packages/apps/LineageParts" remote="los" />
   <project path="packages/apps/LockClock" name="LineageOS/android/packages/apps/LockClock" remote="los" />
   <project path="packages/apps/Profiles" name="LineageOS/android/packages/apps/Profiles" remote="los" />
   <project path="packages/apps/Recorder" name="LineageOS/android/packages/apps/Recorder" remote="los" />
@@ -46,27 +45,28 @@
   <project path="packages/apps/Snap" name="LineageOS/android/packages/apps/Snap" remote="los" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android/packages/apps/Trebuchet" remote="los" />  
   <project path="packages/providers/WeatherProvider" name="LineageOS/android/packages/providers/WeatherProvider" remote="los" />
+  <project path="device/google/marlin" name="LineageOS/device/google/marlin" revision="master" remote="los" />
+  <project path="kernel/google/marlin" name="LineageOS/kernel/google/marlin" revision="master" remote="los" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android/prebuilts/lineage-sdk" clone-depth="1" />-->
   <project path="system/extras/su" name="LineageOS/android/system/extras/su" remote="los" />
   
   <!-- PACROM additions -->
   <project path="vendor/lineage" name="PACROM/aosp/vendor/lineage" revision="master" remote="los" />
-  <project path="android" name="PACROM/android" revision="master" remote="los" />
-  <project path="packages/apps/Settings" name="PACROM/packages/apps/Settings" revision="master" remote="los" />
-  <project path="device/google/marlin" name="PACROM/device/google/marlin" revision="master" remote="los" />
-  <project path="kernel/google/marlin" name="PACROM/kernel/google/marlin" revision="master" remote="los" />
+  <project path="android" name="PACROM/android" revision="master" remote="pac" />
+  <project path="packages/apps/Settings" name="PACROM/packages/apps/Settings" revision="master" remote="pac" />
+  <project path="device/google/marlin" name="LineageOS/device/google/marlin" revision="master" remote="los" />
+  <project path="kernel/google/marlin" name="LineageOS/kernel/google/marlin" revision="master" remote="los" />
   <project path="vendor/pac" name="PACROM/aosp/vendor/pac" revision="master" remote="los" />
   <project path="vendor/google" name="PACROM/proprietary/vendor/google" revision="lineage-16.0" remote="los" />  
   <project path="packages/apps/Backgrounds" name="PACROM/android/packages/apps/Backgrounds" revision="lineage-16.0" remote="los" />
   <project path="packages/apps/Updater" name="PACROM/android/packages/apps/Updater" revision="lineage-16.0" remote="los" />
   <project path="vendor/extra" name="PACROM/vendor/extra" revision="master" remote="los" />
   
-  <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android/device/qcom/sepolicy" groups="qcom,pdk-qcom" remote="los" />
+  <!-- CodeAurora additions --> 
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android/device/qcom/sepolicy-legacy" groups="qcom,pdk-qcom" remote="los" />
-  <project path="external/ant-wireless/ant/native" name="LineageOS/android/external/ant-wireless/ant/native" remote="los" />
-  <project path="external/ant-wireless/ant/service" name="LineageOS/android/external/ant-wireless/ant/service" remote="los" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android/external/ant-wireless/antradio-library" remote="los" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk" remote="aosp" />
+  <project path="external/antlr" name="platform/external/antlr" groups="pdk" remote="aosp" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android/external/ant-wireless/antradio-library" remote="aosp" />
   <project path="external/connectivity" name="LineageOS/android/external/connectivity" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/json-c" name="LineageOS/android/external/json-c" groups="qcom,pdk-qcom" remote="los" />
   <!--<project path="external/powertop" name="LineageOS/android/external/powertop" />-->
