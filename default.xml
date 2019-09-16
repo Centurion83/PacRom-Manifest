@@ -268,8 +268,7 @@
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" remote="aosp" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="aosp" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" remote="aosp" />
-  <project path="device/google/atv" name="android_device_google_atv" groups="device,marlin,broadcom_pdk,generic_fs" remote="aosp" />
-   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/android-mock" name="android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />  
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
