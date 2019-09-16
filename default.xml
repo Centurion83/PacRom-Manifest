@@ -44,8 +44,7 @@
   <project path="packages/apps/Recorder" name="LineageOS/android/packages/apps/Recorder" remote="los" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android/packages/apps/SetupWizard" remote="los" />
   <project path="packages/apps/Snap" name="LineageOS/android/packages/apps/Snap" remote="los" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android/packages/apps/Trebuchet" remote="los" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android/packages/overlays/Lineage" remote="los" />
+  <project path="packages/apps/Trebuchet" name="LineageOS/android/packages/apps/Trebuchet" remote="los" />  
   <project path="packages/providers/WeatherProvider" name="LineageOS/android/packages/providers/WeatherProvider" remote="los" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android/prebuilts/lineage-sdk" clone-depth="1" />-->
   <project path="system/extras/su" name="LineageOS/android/system/extras/su" remote="los" />
